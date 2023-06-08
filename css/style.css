@@ -1,0 +1,61 @@
+.gradient-background {
+    background: linear-gradient(300deg, #FEFF86, #B0DAFF, #B9E9FC, #DAF5FF, #B9E9FC, #B0DAFF, #FEFF86);
+    background-size: 180% 180%;
+    animation: gradient-animation 8s ease-in-out infinite;
+  }
+  
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.nav-link {
+    color: black;
+    text-decoration: none !important;
+}
+
+.aira {
+    border-radius: 50%;
+}
+
+.unique1 {
+    background-color: #f3ec78;
+    background: linear-gradient(300deg, #FEFF86, #B0DAFF, #B9E9FC, #DAF5FF, #B9E9FC, #B0DAFF, #FEFF86);
+    background-size: 180% 180%;
+    animation: gradient-animation 3s ease-in-out infinite;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+.unique2 {
+    background-color: #f3ec78;
+    background: linear-gradient(300deg, #884A39, #C38154, #B9E9FC, #F9E0BB, #B9E9FC, #C38154, #884A39);
+    background-size: 180% 180%;
+    animation: gradient-animation2 3s ease-in-out infinite;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+}
+
+@keyframes gradient-animation2 {
+    0% {
+        background-position: 100% 50%;
+    }
+    50% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+    }
+}
